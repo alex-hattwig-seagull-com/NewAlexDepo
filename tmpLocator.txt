@@ -1,0 +1,76 @@
+How found:	Mouse move (-319,497)
+	hwnd=0x00450BAE 32bit class="Button" style=0x50000009 ex=0x4
+Name:	"Upgrade printer drivers"
+ControlType:	UIA_RadioButtonControlTypeId (0xC35D)
+LocalizedControlType:	"radio button"
+BoundingRectangle:	{l:-339 t:486 r:-52 b:502}
+IsEnabled:	true
+IsOffscreen:	false
+IsKeyboardFocusable:	true
+HasKeyboardFocus:	true
+AccessKey:	"Alt+u"
+ProcessId:	26172
+RuntimeId:	[2A.450BAE]
+AutomationId:	"1008"
+FrameworkId:	"Win32"
+ClassName:	"Button"
+NativeWindowHandle:	0x450BAE
+ProviderDescription:	"[pid:19556,providerId:0x450BAE Main:Nested [pid:26172,providerId:0x450BAE Annotation(parent link):Microsoft: Annotation Proxy (unmanaged:uiautomationcore.dll); Main:Microsoft: MSAA Proxy (unmanaged:uiautomationcore.dll)]; Hwnd(parent link):Microsoft: HWND Proxy (unmanaged:uiautomationcore.dll)]"
+IsPassword:	false
+HelpText:	""
+IsDialog:	false
+LegacyIAccessible.ChildId:	0
+LegacyIAccessible.DefaultAction:	"Check"
+LegacyIAccessible.Description:	""
+LegacyIAccessible.Help:	""
+LegacyIAccessible.KeyboardShortcut:	"Alt+u"
+LegacyIAccessible.Name:	"Upgrade printer drivers"
+LegacyIAccessible.Role:	radio button (0x2D)
+LegacyIAccessible.State:	focused,pressed,hot tracked,focusable (0x10008C)
+LegacyIAccessible.Value:	""
+SelectionItem.IsSelected:	false
+IsAnnotationPatternAvailable:	false
+IsDragPatternAvailable:	false
+IsDockPatternAvailable:	false
+IsDropTargetPatternAvailable:	false
+IsExpandCollapsePatternAvailable:	false
+IsGridItemPatternAvailable:	false
+IsGridPatternAvailable:	false
+IsInvokePatternAvailable:	true
+IsItemContainerPatternAvailable:	false
+IsLegacyIAccessiblePatternAvailable:	true
+IsMultipleViewPatternAvailable:	false
+IsObjectModelPatternAvailable:	false
+IsRangeValuePatternAvailable:	false
+IsScrollItemPatternAvailable:	false
+IsScrollPatternAvailable:	false
+IsSelectionItemPatternAvailable:	true
+IsSelectionPatternAvailable:	false
+IsSpreadsheetItemPatternAvailable:	false
+IsSpreadsheetPatternAvailable:	false
+IsStylesPatternAvailable:	false
+IsSynchronizedInputPatternAvailable:	false
+IsTableItemPatternAvailable:	false
+IsTablePatternAvailable:	false
+IsTextChildPatternAvailable:	false
+IsTextEditPatternAvailable:	false
+IsTextPatternAvailable:	false
+IsTextPattern2Available:	false
+IsTogglePatternAvailable:	false
+IsTransformPatternAvailable:	false
+IsTransform2PatternAvailable:	false
+IsValuePatternAvailable:	false
+IsVirtualizedItemPatternAvailable:	false
+IsWindowPatternAvailable:	false
+IsCustomNavigationPatternAvailable:	false
+IsSelectionPattern2Available:	false
+FirstChild:	[null]
+LastChild:	[null]
+Next:	"Remove printer drivers" radio button
+Previous:	"Install printer drivers" radio button
+Other Props:	Object has no additional properties
+Children:	Container has no children
+Ancestors:	"" dialog
+	"Seagull Driver Wizard" dialog
+	"Desktop 1" pane
+	[ No Parent ]
