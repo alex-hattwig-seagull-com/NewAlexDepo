@@ -5,7 +5,7 @@ import {exec} from "child_process";
 const {I} = inject();
 
 Given(/^The user has installed a driver on the system$/, function () {
-    const exeName = "Zebra_2024.3.exe";
+    const exeName = "TSC.exe";
     const downloadsPath = path.join(process.env.USERPROFILE || "", "Downloads", exeName);
 
     if (!fs.existsSync(downloadsPath)) {
