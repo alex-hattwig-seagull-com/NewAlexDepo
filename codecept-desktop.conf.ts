@@ -1,3 +1,19 @@
+import * as fs from 'fs';
+import * as path from 'path';
+
+let appTopLevelWindow = '0x00000000'; // valor por defecto
+
+// Read handle from window.json
+try {
+  const windowData = JSON.parse(fs.readFileSync(path.join(__dirname, 'window.json'), 'utf8'));
+  if (windowData.appTopLevelWindow) {
+    appTopLevelWindow = windowData.appTopLevelWindow;
+    console.log(`✅ Using appTopLevelWindow from window.json: ${appTopLevelWindow}`);
+  }
+} catch (err) {
+  console.warn("⚠️ File 'window.json'. does not exist using handle by default.");
+}
+
 exports.config = {
   output: './output',
   helpers: {
@@ -10,10 +26,7 @@ exports.config = {
 
         automationName: "Windows",
         platformName: "Windows",
-        newCommandTimeout: 800,
-        unicodeKeyboard: true,
-        waitForAppLunch: 15,
-        app: "Root"
+        'appium:appTopLevelWindow': appTopLevelWindow
       }
     }
   },
@@ -36,9 +49,9 @@ exports.config = {
   },
   stepTimeout: 0,
   stepTimeoutOverride: [{
-      pattern: 'wait.*',
-      timeout: 0
-    },
+    pattern: 'wait.*',
+    timeout: 0
+  },
     {
       pattern: 'amOnPage',
       timeout: 0
